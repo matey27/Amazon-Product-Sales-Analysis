@@ -4,17 +4,14 @@ This project provides an end-to-end data analytics solution for Amazon product d
 
 # 📂 Dataset
 The dataset contains a rich set of features from Amazon's marketplace:
+<br/>
 Identification: product_id, product_name.
+<br/>
 Pricing: actual_price, discounted_price, and discount_percentage.
+<br/>
 Metrics: rating and rating_count.
+<br/>
 Categories: Hierarchical category strings refined into main_category.
-
-# 🛠️ Tools & Technologies
-Data Cleaning: Python (Pandas, NumPy).
-Database: MySQL (Relational schema design and complex querying).
-ETL Pipeline: SQLAlchemy & PyMySQL.
-Visualization: Power BI Desktop.
-Reporting: MS Word (Technical Report) & Gamma AI (Executive Presentation).
 
 # 🚀 Project Steps
 1. Data Cleaning & EDA (Python)
@@ -32,11 +29,16 @@ Created interactive slicers for dynamic category filtering.
 
 # 📈 Dashboard Insights
 The dashboard focuses on three key pillars:
+<br/>
 Category Leaderboard: Ranking the top 4 most discounted categories.
+<br/>
 Discount Distribution: A donut chart showing the spread of "High," "Medium," and "Low" discounts.
+<br/>
 Customer Sentiment: Tracking review volume spikes in high-tech categories like Electronics.
 
 # 🏆 Key Results
 High Value Gems: Identified specific products with >50% discounts and >4.0 ratings.
+<br/>
 Discount Strategy: Found that nearly 47% of analyzed products fall into the "High Discount" bracket.
+<br/>
 Reliability Index: Successfully segmented products by rating_count to find the most trusted top-sellers.
